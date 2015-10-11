@@ -23,7 +23,7 @@ Out of the box it comes with support for:
 ## Installation
 ```bash
 npm install -g yo
-npm install generator-react-webpack
+npm install generator-react-redux-kit
 ```
 
 ## Setting up projects
@@ -32,7 +32,7 @@ npm install generator-react-webpack
 mkdir my-new-project && cd my-new-project
 
 # Run the generator
-yo react-webpack
+yo react-redux-kit
 ```
 
 Please make sure to edit your newly generated `package.json` file to set description, author information and the like.
@@ -41,7 +41,7 @@ Please make sure to edit your newly generated `package.json` file to set descrip
 ```bash
 # After setup of course :)
 # cd my-new-project
-yo react-webpack:component my/namespaced/components/name
+yo react-redux-kit:component my/namespaced/components/name
 ```
 
 The above command will create a new component, as well as its stylesheet and a basic testcase.
@@ -77,12 +77,6 @@ We have opted to follow [@floydophone](https://twitter.com/floydophone) conventi
 
 ### Modules
 Each component is a module and can be required using the [Webpack](http://webpack.github.io/) module system. [Webpack](http://webpack.github.io/) uses [Loaders](http://webpack.github.io/docs/loaders.html) which means you can also require CSS and a host of other file types. Read the [Webpack documentation](http://webpack.github.io/docs/home.html) to find out more.
-
-## Props
-
-Thanks to all who contributed to [generator-angular](https://github.com/yeoman/generator-angular) as the majority of code here has been shamelessy sourced from that repos.
-
-Thanks to [Edd Hannay](https://github.com/eddhannay) for his Webpack optimisations, my local merge and testing meant his additions lost his signature (my fault sorry) so big thanks Edd.
 
 ## Contribute
 
