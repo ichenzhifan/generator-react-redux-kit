@@ -1,4 +1,4 @@
-# generator-react-redux-stack V0.0.1
+# generator-react-redux-kit v0.0.1 (wip)
 
 > Yeoman generator for [ReactJS](http://facebook.github.io/react/) - lets you quickly set up a project including karma test runner and [Webpack](http://webpack.github.io/) module system.
 
@@ -7,7 +7,7 @@ This is fork from Generator React Webpack that will help you build new React pro
 You can find the original here: https://github.com/newtriks/generator-react-webpack
 
 Some differences are:
-- *No* class keyword
+- **No** class keyword
 - Implements redux
 - Implements react-router
 
