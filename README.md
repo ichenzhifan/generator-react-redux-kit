@@ -3,7 +3,7 @@
 > Yeoman generator for [ReactJS](http://facebook.github.io/react/) - lets you quickly set up a project including karma test runner and [Webpack](http://webpack.github.io/) module system.
 
 # About
-This is fork from Generator React Webpack that will help you build new React projects using modern technologies. Generator React Webpack is great tool and provides many of the set up boilerplate which makes it quick and easy to get strated. Thus it was forked.
+This is fork from Generator React Webpack that will help you build new React projects using modern technologies. Generator React Webpack is great tool and provides many of the set up boilerplate which makes it quick and easy to get started. Thus it was forked.
 You can find the original here: https://github.com/newtriks/generator-react-webpack
 
 Some differences are:
