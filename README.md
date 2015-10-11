@@ -1,8 +1,15 @@
-# generator-react-webpack V2.0 [![Build Status](https://secure.travis-ci.org/newtriks/generator-react-webpack.png?branch=master)](https://travis-ci.org/newtriks/generator-react-webpack)  [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/newtriks/generator-react-webpack/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+# generator-react-redux-stack V0.0.1
+
 > Yeoman generator for [ReactJS](http://facebook.github.io/react/) - lets you quickly set up a project including karma test runner and [Webpack](http://webpack.github.io/) module system.
 
 # About
-Generator-React-Webpack will help you build new React projects using modern technologies.
+This is fork from Generator React Webpack that will help you build new React projects using modern technologies. Generator React Webpack is great tool and provide many of the set up boilerplate is a quick and easy way. Thus it was forked.
+You can find the original here: https://github.com/newtriks/generator-react-webpack
+
+Some differences are:
+- *No* class keyword
+- Implements redux
+- Implements react-router
 
 Out of the box it comes with support for:
 - Webpack
@@ -10,16 +17,6 @@ Out of the box it comes with support for:
 - Different supported style languages (sass, scss, less, stylus)
 - Automatic code linting via esLint
 - Ability to unit test components via Karma and Mocha/Chai
-
-## Changes in Version 2.0
-The new version of generator-react-webpack does __NOT__ include support for Flux-Frameworks directly. Instead, we will use it as a base to provide own generators that use it as a base. This will make the base generator easier to use and update.
-
-If you are interested, feel free to write your own generator and use generator-react-webpack as a base (via composition).
-
-If you have build a generator using generator-react-webpack, tell us and we will add a link to our README.
-
-## Generators that extend generator-react-webpack
-- [Generator-React-Webpack-Alt](https://github.com/weblogixx/generator-react-webpack-alt) (Adds ability to create actions, stores and sources for [alt.js](http://alt.js.org))
 
 ---
 

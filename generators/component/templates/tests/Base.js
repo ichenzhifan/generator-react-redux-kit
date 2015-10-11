@@ -17,7 +17,9 @@ describe('<%= component.className %>', () => {
       component = createComponent(<%= component.className %>);
     });
 
-    it('should have its component name as default className', () => {
-      expect(component._store.props.className).to.equal('<%= style.className %>');
+    it('should exist', () => {
+      expect(component).to.not.be.undfinded;
+      expect(component).to.not.be.null;
+      expect(component).to.be.ok;
     });
 });

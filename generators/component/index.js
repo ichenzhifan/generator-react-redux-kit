@@ -21,7 +21,7 @@ module.exports = generator.NamedBase.extend({
 
     // Create the component
     this.fs.copyTpl(
-      this.templatePath('components/Base.js'),
+      this.templatePath('components/Base.jsx'),
       this.destinationPath(settings.component.path + settings.component.fileName),
       settings
     );
