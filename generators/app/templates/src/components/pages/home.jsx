@@ -1,43 +1,34 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { getData } from 'actions/home-actions';
+import { logIn } from 'actions/login-actions';
 
 const HomePage = function HomePage(props) {
 
   return {
     props,
 
-    clickMe() {
-      this.props.dispatch(getData());
+    login() {
+      this.props.dispatch(logIn());
     },
 
     renderStuff() {
-      const store = this.props.home.toJS();
-      const users = store.data;
-
-      if (!users) {
+      const user = this.props.login.toJS().user;
+      
+      if (!user) {
         return null;
       }
 
-      return users.map((u, i) => {
-        let user = u.user;
-        return (
-          <div key={i} style={{textAlign: 'center'}}>
-            <h1>{user.name.first} {user.name.last}</h1>
-            <img style={{display: 'block', borderRadius: '50%', margin: '0 auto'}}src={user.picture.medium} />
-          </div>
-        )
-      });
+      return <p>Hello {user.name}</p>
+
     },
 
     render() {
       return (
         <div>
-          <h1>Random Users</h1>
-          <button onClick={this.clickMe.bind(this)}>Click Meeee</button>
+          <h1>Login</h1>
+          <button onClick={this.login.bind(this)}>Click Meeee</button>
           {this.renderStuff()}
         </div>
-
       )
     }
   }
@@ -45,7 +36,8 @@ const HomePage = function HomePage(props) {
 
 function mapStateToProps(state) {
   return {
-    home: state.home
+    home: state.home,
+    login: state.login
   }
 }
 

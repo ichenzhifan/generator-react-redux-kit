@@ -1,5 +1,5 @@
-import home from './home-reducer';
+import login from './login-reducer';
 
 export {
-  home
+  login
 }
