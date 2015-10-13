@@ -1,4 +1,4 @@
-# generator-react-redux-kit v0.0.6 (wip)
+# generator-react-redux-kit v0.0.7 (wip)
 
 > Yeoman generator for [ReactJS](http://facebook.github.io/react/) - lets you quickly set up a project including karma test runner and [Webpack](http://webpack.github.io/) module system.
 
@@ -10,6 +10,7 @@ Some differences are:
 - **No** class keyword
 - Implements redux
 - Implements react-router
+- Hapi backend support
 
 Out of the box it comes with support for:
 - Webpack
@@ -50,8 +51,12 @@ The above command will create a new component, as well as its stylesheet and a b
 The following commands are available in your project:
 ```bash
 # Start for development
-npm start # or
-npm run serve
+
+## Front end code
+make client
+
+## Hapi Server
+make web
 
 # Start the dev-server with the dist version
 npm run serve:dist
@@ -84,6 +89,10 @@ Contributions are welcomed. When submitting a bugfix, write a test that exposes 
 
 ### Running Tests
 `npm test` or `node node_modules/.bin/mocha`
+
+or
+
+`make test`
 
 ## License
 
