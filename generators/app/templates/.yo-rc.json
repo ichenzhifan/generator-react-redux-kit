@@ -1,6 +1,6 @@
 {
   "generator-rrh-stack": {
-    "appName": "monarch",
+    "appName": "app",
     "style": "scss"
   }
 }

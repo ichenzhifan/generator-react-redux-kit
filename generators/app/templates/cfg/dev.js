@@ -25,4 +25,10 @@ config.module.loaders.push({
   include: path.join(__dirname, '/../src')
 });
 
+config.module.loaders.push({
+  test: /\.(js|jsx)$/,
+  loader: 'react-hot!babel-loader?stage=0',
+  include: path.join(__dirname, '/../lib')
+});
+
 module.exports = config;
