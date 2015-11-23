@@ -24,7 +24,7 @@ Out of the box it comes with support for:
 ## Installation
 ```bash
 npm install -g yo
-npm install generator-react-redux-kit
+npm install -g generator-react-redux-kit
 ```
 
 ## Setting up projects
