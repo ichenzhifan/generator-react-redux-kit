@@ -1,4 +1,4 @@
-# generator-react-redux-kit v0.0.7 (wip)
+# generator-react-redux-kit v0.0.8 (wip)
 
 > Yeoman generator for [ReactJS](http://facebook.github.io/react/) - lets you quickly set up a project including karma test runner and [Webpack](http://webpack.github.io/) module system.
 
