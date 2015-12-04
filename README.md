@@ -84,6 +84,7 @@ We have opted to follow [@floydophone](https://twitter.com/floydophone) conventi
 Each component is a module and can be required using the [Webpack](http://webpack.github.io/) module system. [Webpack](http://webpack.github.io/) uses [Loaders](http://webpack.github.io/docs/loaders.html) which means you can also require CSS and a host of other file types. Read the [Webpack documentation](http://webpack.github.io/docs/home.html) to find out more.
 
 ## Contribute
+Besure to set up your PR to merge into the `develop` branch.
 
 Contributions are welcomed. When submitting a bugfix, write a test that exposes the bug and fails before applying your fix. Submit the test alongside the fix.
 
